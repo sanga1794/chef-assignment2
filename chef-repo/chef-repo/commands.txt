@@ -1,0 +1,11 @@
+Commands thats are used is this assignment
+
+
+1) chef generate cookbook cookbooks/learn_chef_cron - To create cookbook under cookbooks directory.
+2) sudo chef-client --local-mode --runlist 'recipe[learn_chef_cron]' - To run the recipe.
+3) knife upload cookbooks - To upload the cookbooks on chef-server.
+4) chef generate attribute COOKBOOK_NAME ATTRIBUTE_NAME - To create attribute.
+5) sudo crontab -u root -l - To get a list of cron jobs running of a root user.
+6) sudo apt-get install postfix - TO resolve the error(MTA not installed).
+7) tail -f /var/log/syslog | grep CRON - To check cron logs.
+8) nano /var/mail/root - To check error logs of cron.
