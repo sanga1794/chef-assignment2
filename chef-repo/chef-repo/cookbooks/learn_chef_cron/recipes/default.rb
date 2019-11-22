@@ -4,6 +4,6 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 cron 'test_cron' do
-	minute '*/30'
-	command "./demo.rb"
+	minute '*/02'
+	command "./attributes/default.rb"
 end
